@@ -66,11 +66,10 @@ O projeto está hospedado no Render: https://sprint4-csharp-k62y.onrender.com/Sw
 
 ---
 
-## Como rodar o projeto localmente
+## Como rodar o projeto localmente no visual studio code
 - Dotnet run
 
-
-1. Abrir a solução `backend.sln` no Visual Studio  
+## Como rodar o projeto localmente no visual studio 
+1. Abrir a solução `backend.sln` 
 2. Restaurar pacotes NuGet:  
-```bash
-dotnet restore
+- dotnet restore
