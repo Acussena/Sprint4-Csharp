@@ -5,8 +5,8 @@
 
 # Bet_on_You
 
-Projeto full-stack **Bet_on_You**, desenvolvido para gerenciamento de questionários, depoimentos e rede de apoio, com funcionalidades de autenticação, histórico e simulações financeiras.  
-O projeto está hospedado no Render: [https://csharp-sprint4-2jld.onrender.com](https://csharp-sprint4-2jld.onrender.com)
+Projeto **Bet_on_You**, desenvolvido para gerenciamento de questionários, depoimentos e rede de apoio, com funcionalidades de autenticação, histórico e simulações financeiras.  
+O projeto está hospedado no Render: https://sprint4-csharp-k62y.onrender.com/Swagger/index.html
 
 ---
 
