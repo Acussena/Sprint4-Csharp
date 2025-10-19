@@ -8,7 +8,7 @@ namespace backend.src.Models
         public string? Nome { get; set; }
         public string Titulo { get; set; } = string.Empty;
         public string Texto { get; set; } = string.Empty;
-        public DateTime DataCriacao { get; private set; } = DateTime.UtcNow;
+        public DateTime DataCriacao { get; private set; } = DateTime.Now;
 
         public Depoimento() { }
 
@@ -18,7 +18,7 @@ namespace backend.src.Models
             Nome = nome;
             Titulo = titulo;
             Texto = texto;
-            DataCriacao = DateTime.UtcNow;
+            DataCriacao = DateTime.Now;
         }
     }
 }
