@@ -1,7 +1,8 @@
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /src
 
-COPY .sln ./
+# Corrigido o nome do arquivo .sln
+COPY backend.sln ./
 
 RUN dotnet restore
 
