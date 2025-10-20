@@ -22,6 +22,57 @@ O projeto está hospedado no Render: https://sprint4-csharp-k62y.onrender.com/Sw
 
 ## Estrutura do Projeto
 
+```
+Sprint4-CSharp/
+├── Migrations/
+│   ├── 20251019031822_firstMigration.cs
+│   ├── 20251019031822_firstMigration.Designer.cs
+│   └── AppDbContextModelSnapshot.cs
+├── Properties/
+│   └── launchSettings.json
+├── src/
+│   ├── Controllers/
+│   │   ├── AuthController.cs
+│   │   ├── ConscientizacaoController.cs
+│   │   ├── DepoimentosController.cs
+│   │   ├── QuestionarioController.cs
+│   │   ├── RedeApoioController.cs
+│   │   ├── SelicController.cs
+│   │   └── UsuarioController.cs
+│   ├── Data/
+│   │   └── AppDbContext.cs
+│   ├── Models/
+│   │   ├── BCData.cs
+│   │   ├── Conscientizacao.cs
+│   │   ├── Depoimento.cs
+│   │   ├── Questionario.cs
+│   │   ├── RedeApoio.cs
+│   │   ├── SelicData.cs
+│   │   └── Usuario.cs
+│   ├── Repositories/
+│   │   ├── ConscientizacaoRepository.cs
+│   │   ├── DepoimentoRepository.cs
+│   │   ├── QuestionarioRepository.cs
+│   │   ├── RedeApoioRepository.cs
+│   │   └── UsuarioRepository.cs
+│   ├── Requests/
+│   │   └── UsuarioRequest.cs
+│   └── Services/
+│       ├── ConscientizacaoService.cs
+│       ├── DepoimentoService.cs
+│       ├── QuestionarioService.cs
+│       ├── RedeApoioService.cs
+│       ├── SelicService.cs
+│       └── UsuarioService.cs
+├── .gitignore
+├── appsettings.Development.json
+├── appsettings.json
+├── backend.csproj
+├── backend.http
+├── backend.sln
+└── Dockerfile
+```
+
 ### Backend
 
 - **Controllers:**  
