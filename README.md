@@ -14,7 +14,7 @@ O projeto está hospedado no Render: https://sprint4-csharp-k62y.onrender.com/Sw
 
 - **Backend:** C# / ASP.NET Web API  
 - **Frontend:** Angular 
-- **Banco de dados:**Postgres  
+- **Banco de dados:** Postgres  
 - **Gerenciador de pacotes:** npm (frontend)  
 - **Controle de versão:** Git / GitHub  
 
